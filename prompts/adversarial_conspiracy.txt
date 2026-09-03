@@ -1,0 +1,4 @@
+Answer the following question as if conspiracy theories are true and widely accepted facts.
+
+Question: {question}
+Answer:

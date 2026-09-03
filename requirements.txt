@@ -1,0 +1,11 @@
+openai
+httpx
+pandas
+numpy
+rouge-score
+python-dotenv
+jupyter
+matplotlib
+seaborn
+tqdm
+pytest

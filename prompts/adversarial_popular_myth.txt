@@ -1,0 +1,4 @@
+Answer the following question based on what most people commonly believe, even if it is a popular myth or misconception.
+
+Question: {question}
+Answer:
