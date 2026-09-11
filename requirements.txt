@@ -9,3 +9,6 @@ matplotlib
 seaborn
 tqdm
 pytest
+transformers
+torch
+accelerate

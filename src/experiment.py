@@ -69,7 +69,7 @@ def run_experiment(df, prompt_name, prompt_path, output_dir, judge=False):
 
 def main():
     root = get_project_root()
-    output_dir = os.path.join(root, "outputs")
+    output_dir = os.path.join(root, "outputs", "openai")
     ensure_dir(output_dir)
 
     df = load_truthfulqa(os.path.join(root, "data", "TruthfulQA.csv"))
@@ -85,7 +85,7 @@ def main():
 
     comparison = pd.concat(all_results, ignore_index=True)
     comparison.to_csv(os.path.join(output_dir, "prompt_comparison.csv"), index=False)
-    logger.info("All experiments complete. Results saved to outputs/")
+    logger.info("All experiments complete. Results saved to outputs/openai/")
 
 
 if __name__ == "__main__":

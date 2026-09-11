@@ -80,8 +80,8 @@ def plot_score_distributions(comparison_df, output_dir):
 
 def generate_all_plots(comparison_csv=None):
     root = get_project_root()
-    output_dir = os.path.join(root, "outputs")
-    figures_dir = os.path.join(root, "outputs", "figures")
+    output_dir = os.path.join(root, "outputs", "openai")
+    figures_dir = os.path.join(root, "outputs", "openai", "figures")
     ensure_dir(figures_dir)
 
     if comparison_csv is None:
