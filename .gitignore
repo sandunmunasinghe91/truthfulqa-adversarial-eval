@@ -4,6 +4,7 @@ __pycache__/
 .ipynb_checkpoints/
 outputs/*.csv
 outputs/figures/
+outputs/open_model/logit_lens/
 *.egg-info/
 dist/
 build/

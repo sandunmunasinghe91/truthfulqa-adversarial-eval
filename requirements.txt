@@ -12,3 +12,4 @@ pytest
 transformers
 torch
 accelerate
+scipy
